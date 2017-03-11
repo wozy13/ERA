@@ -25,7 +25,7 @@ end
 
 k=2; % Hankel Matrix H1
 for i=1:r
-	for i=1:s
+	for j=1:s
 		H1{i,j}=h(:,k+i+j-2);
 	end
 end
